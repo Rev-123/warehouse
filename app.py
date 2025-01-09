@@ -29,10 +29,6 @@ def greetUser(id):
     return render_template('username.html',name=username)
 
 
-@app.route("/terms-and-services")
-def hellotheUser():
-    return "<p>this is the list of terms and services we comply with:....</p>"
-
 
 @app.route("/viewitems/<productname>")
 def viewtheitems(productname):
